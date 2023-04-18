@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Playfair+Display&display=swap');
+body {
+    font-family: 'Nunito Sans', sans-serif;
+   background: url('https://cdn.fansshare.com/photo/backgroundimage/grey-background-for-site-for-website-527750183.jpg')
+
+}
+
+
+.conteiner {
+    width: 800px;
+    min-height: 800px;
+    border: 10px solid rgb(238, 234, 232);
+margin: 0 auto;
+background: #fff;
+}
+.header {
+    display: flex;
+    height: 150px;
+}
+.title-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    border: 2px solid red;
+    font-size: 20px;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNBT-Wz76dPt9P4cgQWKivlxu0JmRWt-XNvQ&usqp=CAU')no-repeat center center / cover;
+    color: #fff;
+    margin-right: 10px;
+
+}
+.userpic {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    border: 2px solid blue;
+    background: url('https://n1s1.hsmedia.ru/6d/81/bd/6d81bd232e9bf22a91be3bea4425a358/728x485_1_80e0b8118d9bfb010e89b2860ecff1f9@4250x2832_0xac120003_6878435451666338160.jpeg') no-repeat center center / cover;
+}
+.nav ul {
+    display: flex;
+    background: #e6e0e0;
+}
+.nav li {
+    margin-right: 30px;
+}
+.nav li a{
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(48, 47, 47);
+    font-weight: bold;
+    border-right: 1px solid #837f7f;
+    transition background: .3s ease;
+}
+.nav li a:hover {
+background: #525151;
+}
+.content-wrapper
